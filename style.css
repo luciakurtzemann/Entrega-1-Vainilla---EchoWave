@@ -1,0 +1,153 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #d9b9a5;
+    background-size: cover;
+    text-decoration: none;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150vh;
+    color: #F5F5F5;
+    margin: 0px;
+}
+
+
+header{
+    background-color: #006C84;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    padding: 8px 10px;
+    position: sticky;
+    top: 0;
+    a{
+        text-decoration: none;
+        color: #F5F5F5;
+        padding: 3px 8px;
+        /* gap: 55px; */
+        font-weight: 400;
+        &:hover{
+            font-size: 14px;
+            color: #ff7f50;
+        }
+    }
+    #iniciar-sesion{
+        font-weight: 500;
+    }
+    #logo-header{
+        width: 120px;
+        margin-left: 30px;
+    }
+}
+
+
+footer{
+    display: flex;
+    padding: 20px;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #006C84;
+    text-decoration: underline;
+    a{
+        color: #F5F5F5;
+        font-size: 14px;
+        font-weight: 200;
+        padding: 3px 15px;
+        &:hover{
+            color: #ff7f50;
+        }
+    }
+    .logo-rrss{
+        width: 30px;
+        padding: 20px;
+    }
+}
+
+
+main{
+    background-image: url(Imágenes/Fondo\ parlante\ \(1\).png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    height: 100vh;
+    margin: 0px;
+    
+    padding: 50px 30px;
+    p{
+        margin: 0px;
+        margin-bottom: 15px;
+    }
+}
+
+.producto-destacado{
+    background-color: beige;
+}
+
+#nuevo-importante{
+    font-weight: 900;
+    font-size: 30px;
+    color: coral;
+    margin-bottom: 5px;
+}
+
+.nombre-producto{
+    font-size: 80px;
+    font-weight: 600;
+    color: #1B1B1B;
+}
+
+#motto-producto{
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    color: #1B1B1B;
+}
+
+.breve-info-producto{
+    color: grey;
+    margin-bottom: 25px;
+    color: #1f1f1f;
+    width: 600px;
+}
+
+#boton-saber-mas{
+    font-weight: 500;
+    color: #1f1f1f;
+    text-decoration: none;
+    padding: 5px 12px;
+    border: 1px #1f1f1f solid;
+    border-radius: 5px;
+    &:hover{
+        border: 1px #ff7f50 solid;
+        background-color: #ff7f50;
+    }
+}
+
+.no-salto{
+    white-space: nowrap;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.foto-producto-pulse{
+    width: 400px;
+    border: 2px #1f1f1f solid;
+    margin: 8px;
+}
+
+#info-pulse{
+    margin: 50px 30px;
+    width: 550px;
+    float: right;
+}
+
+.seleccion-color{
+    display: flex;
+}

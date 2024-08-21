@@ -1,0 +1,8 @@
+PALETA DE COLORES
+    Cian oscuro #006C84
+    Coral #ff7f50
+    Negro Carbón (#1B1B1B):
+    Blanco Humo (#F5F5F5)
+    Gris Claro (#D9D9D9)
+    Negro no tan importante #1f1f1f
+    Arena fondo #d9b9a5
