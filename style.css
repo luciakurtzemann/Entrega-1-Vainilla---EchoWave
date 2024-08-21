@@ -1,11 +1,9 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #d9b9a5;
+    background-color: #F5F5F5;
     background-size: cover;
     text-decoration: none;
 
-    display: flex;
-    flex-direction: column;
     justify-content: space-between;
     height: 150vh;
     color: #F5F5F5;
@@ -137,18 +135,47 @@ main{
     font-weight: bold;
 }
 
+.producto{
+    background-color: antiquewhite;
+    background-size: cover;
+    color: #006C84;
+    font-weight: 450;
+}
+
+.datos-producto{
+    display: flex;
+}
+
 .foto-producto-pulse{
-    width: 400px;
+    /* width: 400px; */
+    height: 500px;
     border: 2px #1f1f1f solid;
     margin: 8px;
+}
+
+#fecha-lanzamiento{
+    font-style: italic;
+    font-weight: 600;
+    color: #ff7f50;
 }
 
 #info-pulse{
     margin: 50px 30px;
     width: 550px;
-    float: right;
 }
 
-.seleccion-color{
+#seleccion-color{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    padding: 15px;
+    div{
+        display: flex;
+    }
+}
+
+.caracteristicas{
+    padding-left: 25px;
+    margin-block: 4px;
 }
