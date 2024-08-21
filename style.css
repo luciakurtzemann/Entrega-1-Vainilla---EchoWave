@@ -67,14 +67,19 @@ footer{
     }
 }
 
-
-main{
+.background {
     background-image: url(Imágenes/Fondo\ parlante\ \(1\).png);
     background-size: cover;
+}
+
+.screen-height {
+    height: 100vh;
+}
+
+main{
     display: flex;
     flex-direction: column;
     gap: 15px;
-    height: 100vh;
     margin: 0px;
     
     padding: 50px 30px;
@@ -126,10 +131,6 @@ main{
         border: 1px #ff7f50 solid;
         background-color: #ff7f50;
     }
-}
-
-.no-salto{
-    white-space: nowrap;
 }
 
 .bold{
