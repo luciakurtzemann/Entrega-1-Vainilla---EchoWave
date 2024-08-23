@@ -74,6 +74,12 @@ footer{
     height: 100vh;
 }
 
+.underlined{
+    text-decoration: underline;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
 main{
     display: flex;
     flex-direction: column;
@@ -85,10 +91,9 @@ main{
         margin: 0px;
         margin-bottom: 15px;
     }
-}
-
-.producto-destacado{
-    background-color: beige;
+    .contraste{
+        text-shadow: #F5F5F5 1px 0 10px;
+    }
 }
 
 #nuevo-importante{
@@ -146,36 +151,73 @@ main{
     display: flex;
 }
 
-.foto-producto-pulse{
-    /* width: 400px; */
+.foto-ppal-pulse{
     height: 500px;
     border: 2px #1f1f1f solid;
     margin: 8px;
 }
 
-#fecha-lanzamiento{
-    font-style: italic;
-    font-weight: 600;
-    color: #ff7f50;
-}
-
-#info-pulse{
-    margin: 50px 30px;
-    width: 550px;
-}
-
-#seleccion-color{
+.fotos-adicionales{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 300px;
-    padding: 15px;
-    div{
-        display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    img{
+        margin: 10px;
+        height: 150px;
+        width: 150px;
+        border: 2px #1f1f1f solid;
+        margin: 8px;
+        object-fit: cover;
     }
 }
 
-.caracteristicas{
-    padding-left: 25px;
-    margin-block: 4px;
+
+#info-pulse{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 30px;
+    /* width: 580px; */
+    
+    #fecha-lanzamiento{
+        font-style: italic;
+        font-weight: 600;
+        color: #ff7f50;
+    }
+    #seleccion-color{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 300px;
+        padding: 15px;
+        div{
+            display: flex;
+        }
+    }
+    .caracteristicas{
+        padding-left: 25px;
+        margin-block: 4px;
+    }
+    #reserva-producto{
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        background-color: #ff7f50;
+        color: antiquewhite;
+        font-size: 15px;
+        font-weight: 200;
+        padding: 5px 10px;
+        border: 1px solid #ff7f50;
+        border-radius: 10px;
+        width: 200px;
+        margin: 15px;
+        &:hover{
+            background-color: #006C84;
+        }
+    }
+    #volver-al-inicio{
+        align-self: flex-end;
+        font-style: italic;
+        font-weight: 300;
+        margin-top: 40px;
+    }
 }
