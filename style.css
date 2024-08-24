@@ -25,7 +25,6 @@ header{
         text-decoration: none;
         color: #F5F5F5;
         padding: 3px 8px;
-        /* gap: 55px; */
         font-weight: 400;
         &:hover{
             font-size: 14px;
@@ -49,12 +48,12 @@ footer{
     justify-content: space-between;
     align-items: center;
     background-color: #006C84;
-    text-decoration: underline;
     a{
         color: #F5F5F5;
         font-size: 14px;
         font-weight: 200;
         padding: 3px 15px;
+        text-decoration: none;
         &:hover{
             color: #ff7f50;
         }
@@ -92,7 +91,7 @@ main{
         margin-bottom: 15px;
     }
     .contraste{
-        text-shadow: #F5F5F5 1px 0 10px;
+        text-shadow: #1B1B1B 1.5px 0 2px;
     }
 }
 
@@ -106,29 +105,29 @@ main{
 .nombre-producto{
     font-size: 80px;
     font-weight: 600;
-    color: #1B1B1B;
+    color: gray;
 }
 
 #motto-producto{
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
     font-style: italic;
-    color: #1B1B1B;
+    color: gray;
 }
 
 .breve-info-producto{
-    color: grey;
+    color: gray;
     margin-bottom: 25px;
-    color: #1f1f1f;
     width: 600px;
+    font-weight: 400;
 }
 
 #boton-saber-mas{
     font-weight: 500;
-    color: #1f1f1f;
+    color: gray;
     text-decoration: none;
     padding: 5px 12px;
-    border: 1px #1f1f1f solid;
+    border: 1px gray  solid;
     border-radius: 5px;
     &:hover{
         border: 1px #ff7f50 solid;
@@ -212,6 +211,7 @@ main{
         margin: 15px;
         &:hover{
             background-color: #006C84;
+            border: 1px solid #006C84;
         }
     }
     #volver-al-inicio{
@@ -220,4 +220,17 @@ main{
         font-weight: 300;
         margin-top: 40px;
     }
+}
+
+#msj-confirmacion-reserva{
+    display: none;
+    align-self: center;
+    color: #014f61;
+    font-size: 15px;
+    font-style: oblique;
+    text-align: center;
+    padding: 8px;
+    width: 400px;
+    background-color: #36a6bf;
+    border-radius: 2px;
 }

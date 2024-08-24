@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nuevo! EchoWave Pulse</title>
     <link rel="stylesheet" href="style.css">
-    <script></script>
+    <script src="more.js" defer></script>
 </head>
 <body>
     <header>
@@ -14,10 +14,9 @@
         </a>
     
         <nav class="indice-nav">                                
-                                                        <!-- ESTÁ BIEN?? -->
-            <a href="">PRODUCTOS</a>
-            <a href="">TIENDAS</a>
-            <a href="">SOBRE ECHOWAVE</a>
+            <a href="" id="boton-productos">PRODUCTOS</a>
+            <a href="" id="boton-tiendas">TIENDAS</a>
+            <a href="" id="boton-sobre-la-marca">SOBRE ECHOWAVE</a>
             <a href="" id="iniciar-sesion">INICIAR SESIÓN</a>
         </nav>
     </header>
@@ -50,27 +49,31 @@
                 <p class="underlined">Colores disponibles:</p>
                 <div id="seleccion-color">
                     <div>
-                        <input type="radio" name="seleccion-color" id="pulse-negro">
+                        <input type="radio" name="seleccion-color" id="pulse-negro" value="Negro">
                         <label for="pulse-negro">Negro</label> 
                     </div>
                     <div>
-                        <input type="radio" name="seleccion-color" id="pulse-verde">
+                        <input type="radio" name="seleccion-color" id="pulse-verde" value="Verde">
                         <label for="pulse-verde">Verde</label>
                     </div>
                     <div>
-                        <input type="radio" name="seleccion-color" id="pulse-rojo">
+                        <input type="radio" name="seleccion-color" id="pulse-rojo" value="Rojo">
                         <label for="pulse-rojo">Rojo</label>
                     </div>
                     <div>
-                        <input type="radio" name="seleccion-color" id="pulse-gris">
+                        <input type="radio" name="seleccion-color" id="pulse-gris" value="Gris">
                         <label for="pulse-gris">Gris</label>
                     </div>
                     <div>
-                        <input type="radio" name="seleccion-color" id="pulse-rosa">
+                        <input type="radio" name="seleccion-color" id="pulse-rosa" value="Rosa">
                         <label for="pulse-rosa">Rosa</label>
                     </div>
                 </div>
                 <button id="reserva-producto">QUIERO UNO</button>
+                <div id="msj-confirmacion-reserva">
+                    <p>Reserva realizada.</p>
+                    <p>Se encuentra en la lista de espera para recibir el nuevo EchoWave Pulse a partir del 1/10/2024.</p>
+                </div>
                 <a href="index.html" id="volver-al-inicio">Volver al inicio</a>
             </div>
         </div>
@@ -79,10 +82,10 @@
 
     <footer>
         <div>
-            <a href="">Newsletter</a>
-            <a href="">Contacto</a>
-            <a href="">Soporte</a>
-            <a href="">Política de privacidad</a>
+            <a href="" id="newsletter">Newsletter</a>
+            <a href="" id="contacto">Contacto</a>
+            <a href="" id="soporte">Soporte</a>
+            <a href="" id="politica-de-privacidad">Política de privacidad</a>
         </div>
         <div class="redes-sociales">
             <a href="https://www.instagram.com/">
