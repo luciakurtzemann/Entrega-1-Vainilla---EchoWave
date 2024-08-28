@@ -65,11 +65,18 @@ let msjConfirmacionReserva = document.getElementById("msj-confirmacion-reserva")
 botonReserva.addEventListener("click", ()=>{
     let eleccionColor = document.querySelector("input[name='seleccion-color']:checked");
     if (eleccionColor){
+        let msjReserva = document.createElement("p");
+        msjReserva.textContent = "Reserva realizada"
+        msjConfirmacionReserva.appendChild(msjReserva);
         let colorElegido = document.createElement("p");
-        colorElegido.textContent = "Color seleccionado: " + eleccionColor.value;
+        colorElegido.textContent = "Se encuentra en la lista de espera para recibir el nuevo EchoWave Pulse en color "+ eleccionColor.value +" a partir del 1/10/2024.";
         msjConfirmacionReserva.appendChild(colorElegido);
         msjConfirmacionReserva.style.display= "block";
     } else{
         console.log("Primero se debe seleccionar el color que desea reservar.");
+        let faltaElegir = document.createElement("p");
+        faltaElegir.textContent = "Para hacer una reserva, primero seleccione el color deseado";
+        msjConfirmacionReserva.appendChild(faltaElegir);
+        msjConfirmacionReserva.style.display= "block";
     }
 })

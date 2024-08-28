@@ -105,7 +105,7 @@ main{
 .nombre-producto{
     font-size: 80px;
     font-weight: 600;
-    color: gray;
+    color: #1B1B1B;
 }
 
 #motto-producto{
@@ -140,7 +140,7 @@ main{
 }
 
 .producto{
-    background-color: antiquewhite;
+    background-color:#cfb5a6;
     background-size: cover;
     color: #006C84;
     font-weight: 450;
@@ -175,7 +175,7 @@ main{
     display: flex;
     flex-direction: column;
     margin: 50px 30px;
-    /* width: 580px; */
+    color: #1B1B1B;
     
     #fecha-lanzamiento{
         font-style: italic;
@@ -200,18 +200,19 @@ main{
         display: flex;
         justify-content: center;
         align-self: center;
-        background-color: #ff7f50;
-        color: antiquewhite;
+        background-color: #014f61;
+        color: #cfb5a6;
         font-size: 15px;
-        font-weight: 200;
+        font-weight: 400;
         padding: 5px 10px;
-        border: 1px solid #ff7f50;
+        border: 1px solid #014f61;
         border-radius: 10px;
         width: 200px;
         margin: 15px;
         &:hover{
-            background-color: #006C84;
-            border: 1px solid #006C84;
+            background-color: #ff7f50;
+            border: 1px solid #ff7f50;
+            color: #1B1B1B;
         }
     }
     #volver-al-inicio{
