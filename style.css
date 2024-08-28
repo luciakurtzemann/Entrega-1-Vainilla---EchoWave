@@ -91,7 +91,7 @@ main{
         margin-bottom: 15px;
     }
     .contraste{
-        text-shadow: #1B1B1B 1.5px 0 2px;
+        /* text-shadow: #9c9898 0.5px 0 2px; */
     }
 }
 
@@ -104,34 +104,40 @@ main{
 
 .nombre-producto{
     font-size: 80px;
-    font-weight: 600;
+    font-weight: 700;
     color: #1B1B1B;
+    /* color: rgb(200, 206, 212); */
 }
 
 #motto-producto{
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 700;
     font-style: italic;
-    color: gray;
+    /* color: rgb(41, 41, 41); */
+    color: rgb(200, 206, 212);
 }
 
 .breve-info-producto{
-    color: gray;
+    color: rgb(200, 206, 212);
     margin-bottom: 25px;
     width: 600px;
-    font-weight: 400;
+    font-weight: 500;
+    /* background: rgba( 255, 255, 255, 0 ); */
+    /* backdrop-filter: blur( 20px ); */
 }
 
 #boton-saber-mas{
-    font-weight: 500;
-    color: gray;
+    font-weight: 700;
+    color: rgb(247, 163, 132);
     text-decoration: none;
     padding: 5px 12px;
-    border: 1px gray  solid;
+    border: 2px rgb(247, 163, 132) solid;
     border-radius: 5px;
+    text-align: center;
     &:hover{
         border: 1px #ff7f50 solid;
         background-color: #ff7f50;
+        color: rgb(200, 206, 212);
     }
 }
 

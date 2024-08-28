@@ -57,7 +57,7 @@ function infoPoliticaPrivacidad(event){
     event.preventDefault();
 }
 
-//_______________________________________________________________________________________________
+
 
 let botonReserva = document.getElementById("reserva-producto");
 let msjConfirmacionReserva = document.getElementById("msj-confirmacion-reserva");
