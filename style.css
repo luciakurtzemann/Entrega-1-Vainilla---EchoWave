@@ -90,9 +90,6 @@ main{
         margin: 0px;
         margin-bottom: 15px;
     }
-    .contraste{
-        /* text-shadow: #9c9898 0.5px 0 2px; */
-    }
 }
 
 #nuevo-importante{
@@ -122,8 +119,6 @@ main{
     margin-bottom: 25px;
     width: 600px;
     font-weight: 500;
-    /* background: rgba( 255, 255, 255, 0 ); */
-    /* backdrop-filter: blur( 20px ); */
 }
 
 #boton-saber-mas{
