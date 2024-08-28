@@ -61,12 +61,14 @@ function infoPoliticaPrivacidad(event){
 
 let botonReserva = document.getElementById("reserva-producto");
 let msjConfirmacionReserva = document.getElementById("msj-confirmacion-reserva");
+let msjErrorFaltaElegir = document.getElementById("msj-falta-elegir");
 
 botonReserva.addEventListener("click", ()=>{
     let eleccionColor = document.querySelector("input[name='seleccion-color']:checked");
     if (eleccionColor){
+        msjErrorFaltaElegir.style.display= "none";
         let msjReserva = document.createElement("p");
-        msjReserva.textContent = "Reserva realizada"
+        msjReserva.textContent = "Reserva realizada";
         msjConfirmacionReserva.appendChild(msjReserva);
         let colorElegido = document.createElement("p");
         colorElegido.textContent = "Se encuentra en la lista de espera para recibir el nuevo EchoWave Pulse en color "+ eleccionColor.value +" a partir del 1/10/2024.";
@@ -75,8 +77,8 @@ botonReserva.addEventListener("click", ()=>{
     } else{
         console.log("Primero se debe seleccionar el color que desea reservar.");
         let faltaElegir = document.createElement("p");
-        faltaElegir.textContent = "Para hacer una reserva, primero seleccione el color deseado";
-        msjConfirmacionReserva.appendChild(faltaElegir);
-        msjConfirmacionReserva.style.display= "block";
+        faltaElegir.textContent = "Para hacer una reserva, primero seleccione el color deseado.";
+        msjErrorFaltaElegir.appendChild(faltaElegir);
+        msjErrorFaltaElegir.style.display="block";
     }
 })

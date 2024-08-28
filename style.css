@@ -234,4 +234,20 @@ main{
     width: 400px;
     background-color: #36a6bf;
     border-radius: 2px;
+    margin: 8px;
+}
+
+#msj-falta-elegir{
+    display: none;
+    align-self: center;
+    color: #1f1f1f;
+    font-style: italic;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: #ff7f50;
+    border-radius: 2px;
+    margin: 8px;
+    width: 400px;
+    text-align: center;
 }
